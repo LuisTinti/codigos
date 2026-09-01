@@ -1,16 +1,16 @@
 import tkinter as tk
 
 root = tk.Tk()
-root.title("sei la so copiei do gemini")
+root.title("Calculadora")
 root.geometry("500x300")
 
-label_1 = tk.Label(root, text="poe um numero ai")
+label_1 = tk.Label(root, text="Põe um numero ai")
 label_1.pack(pady=20)
 
 number_1 = tk.Entry(root)
 number_1.pack(pady=20)
 
-label_2 = tk.Label(root, text="poe outro numero ai")
+label_2 = tk.Label(root, text="Põe outro numero ai")
 label_2.pack(pady=20)
 
 number_2 = tk.Entry(root)
@@ -40,10 +40,10 @@ def dividir():
     label_3.config(text=res)
 
 
-button_4 = tk.Button(root, text="adicionar", command=adicionar)
-button_3 = tk.Button(root, text="subtrair", command=subtrair)
-button_2 = tk.Button(root, text="multi", command=multiplicar)
-button_1 = tk.Button(root, text="divisao", command=dividir)
+button_4 = tk.Button(root, text="Adicionar", command=adicionar)
+button_3 = tk.Button(root, text="Subtrair", command=subtrair)
+button_2 = tk.Button(root, text="Multiplicar", command=multiplicar)
+button_1 = tk.Button(root, text="Dividir", command=dividir)
 button_1.pack(pady=10)
 button_2.pack(pady=10)
 button_3.pack(pady=10)
